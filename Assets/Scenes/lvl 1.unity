@@ -955,6 +955,7 @@ GameObject:
   - component: {fileID: 533180043}
   - component: {fileID: 533180044}
   - component: {fileID: 533180045}
+  - component: {fileID: 533180047}
   - component: {fileID: 533180046}
   m_Layer: 0
   m_Name: Mario
@@ -1135,6 +1136,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   shotpos: {fileID: 740715493}
   Bullet: {fileID: 8406579874007075099, guid: b0507efa8191e3447b7e5c226bfc9ebb, type: 3}
+--- !u!114 &533180047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533180038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a6f6a4270bcbd44da1bc22203119c3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  X: 0
+  Y: 0
+  player: {fileID: 0}
 --- !u!1 &564713757
 GameObject:
   m_ObjectHideFlags: 0
